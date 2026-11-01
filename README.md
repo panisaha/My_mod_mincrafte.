@@ -100,7 +100,7 @@
 
         <!-- دکمه پشتیبانی (ایمیل خودت رو جایگزین کن) -->
         <div style="text-align: center; margin-top: 40px;">
-            <a href="mailto:ایمیل_خودت_اینجا@example.com?subject=Support%20Request" style="background-color: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">📧 Contact Support</a>
+            <a href="mailto:ایمیل_خودت_اینجاpanisahajizadeh@gimail.com?subject=Support%20Request" style="background-color: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">📧 Contact Support</a>
         </div>
         
         <!-- کدهای giscus (کامنت‌ها) -->
