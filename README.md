@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahshid Ceram · Loyalty Card</title>
+    <title>مهشید سرام · کارت مشتری</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap');
 
@@ -84,7 +84,7 @@
             justify-content: center;
             gap: 12px;
             margin-bottom: 20px;
-            direction: ltr; /* مهرها از چپ به راست */
+            direction: ltr;
         }
 
         .stamp {
@@ -205,11 +205,6 @@
             padding: 12px;
         }
 
-        .btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
         .divider {
             height: 1px;
             background: #eee;
@@ -249,10 +244,6 @@
             font-size: 0.8rem;
             color: var(--text-muted);
             margin-top: 20px;
-        }
-        
-        .hidden {
-            display: none;
         }
     </style>
 </head>
@@ -300,12 +291,12 @@
             </select>
         </label>
 
-        <button class="btn primary wide" id="create">ساخت کارت</button>
+        <button class="btn primary wide" id="create">ساخت کارت مشتری</button>
 
         <div class="divider"></div>
 
-        <h2>کارت‌های مشتریان</h2>
-        <p class="muted" style="font-size: 0.8rem; margin-bottom: 15px; color: #718096;">
+        <h2>لیست مشتریان</h2>
+        <p style="font-size: 0.8rem; margin-bottom: 15px; color: #718096;">
             برای دیدن کارت هر مشتری، روی اسمش کلیک کنید.
         </p>
 
@@ -313,7 +304,7 @@
     </div>
 
     <div class="footer">
-        Mahshid Ceram · Handmade Pottery
+        مهشید سرام · سفال دست‌ساز
     </div>
 </div>
 
@@ -404,7 +395,7 @@ function renderCard() {
     el('progress').style.width = ((c ? c.stamps : 0) / limit * 100) + '%';
 
     el('reward').innerHTML = c && c.stamps >= limit
-        ? '<strong>تعداد مهرهای مجاز تکمیل شد 🎁</strong><br>برای جایزه با مهشید سرام هماهنگ کن.'
+        ? '<strong>تعداد مهرهای مجاز تکمیل شد 🎁</strong><br>برای دریافت جایزه با مهشید سرام هماهنگ کن.'
         : '<strong>جایزه‌ات نزدیکه!</strong><br>روی جای مهر بزن؛ بعد از ثبت ' + fa(limit) + ' مهر، مهرهای بیشتر ثبت نمی‌شوند.';
 
     el('shareInfo').textContent = c 
