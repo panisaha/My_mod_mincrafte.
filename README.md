@@ -92,7 +92,7 @@
             <p>Hello! We are a team creating custom Minecraft mods for you to download and enjoy. If you have any ideas or items you'd like to see added to the game, feel free to leave a comment, and we will make the mod for you. Thank you for your support!</p>
         </div>
 
-        <!-- لینک دانلود (بعدا آدرس فایل .jar رو اینجا میذاریم) -->
+        <!-- لینک دانلود (بعدا فایل .jar رو اینجا وصل میکنیم) -->
         <a href="#" class="download-btn">Download Mod</a>
         <div class="info">
             Requires: <strong>Minecraft 1.20.1</strong> | <strong>Forge</strong> | <strong>Java 17</strong>
@@ -100,10 +100,10 @@
 
         <!-- دکمه پشتیبانی (ایمیل خودت رو جایگزین کن) -->
         <div style="text-align: center; margin-top: 40px;">
-            <a href="mailto:ایمیل_خودت_اینجاpanisahajizadeh@gimail.com?subject=Support%20Request" style="background-color: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">📧 Contact Support</a>
+            <a href="mailto:ایمیل_خودت_اینجا@example.com?subject=Support%20Request" style="background-color: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">📧 Contact Support</a>
         </div>
         
-        <!-- کدهای giscus (کامنت‌ها) -->
+        <!-- کدهای کامنت giscus -->
         <script src="https://giscus.app/client.js"
             data-repo="panisaha/My_mod_mincrafte"
             data-repo-id="R_kgDOVe-RMQ"
